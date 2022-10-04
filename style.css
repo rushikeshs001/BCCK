@@ -18,15 +18,14 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
-    gap: -5px;
+    gap: 1.5rem;
     
   
    
 }
  .logo1{
     height: 9.5vh;
-    width:100px;
-  
+    width:100px;  
 }
 
 .nav-item ul{
@@ -229,9 +228,11 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+   
 }
 .follow-logo img{
     width: 3rem;
+
 }
 .last {
     text-align: center;

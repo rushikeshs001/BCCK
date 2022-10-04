@@ -226,4 +226,63 @@ body{
 
 
   /* footer */
-  
+  .contact a{
+    text-decoration: none;
+    color: inherit;
+}
+  .biggest-footer{
+    background-color: #001935;
+    color: white;
+}
+.big-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    background-color: #001935;
+    color: white;
+    padding: 2rem;
+}
+
+.contact-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.subhead{
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+.foot-logo img{
+    width: 18rem;
+}
+.follow-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.follow-logo img{
+    width: 3rem;
+}
+.last {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+@media screen and (max-width:768px)
+{
+    .big-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        background-color: #001935;
+        color: white;
+        padding: 1rem;
+        flex-direction: column;
+    }
+}
