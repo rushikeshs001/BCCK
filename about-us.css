@@ -284,5 +284,15 @@ body{
         color: white;
         padding: 1rem;
         flex-direction: column;
+        
+    }
+    .last{
+        position: fixed;
+        margin-bottom: 0;
+    }
+
+    .history{
+        background-color: #e0f5ff;
+        padding: 1rem;
     }
 }
