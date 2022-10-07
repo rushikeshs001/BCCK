@@ -230,7 +230,9 @@ body{
     color: white;
     padding: 2rem;
 }
-
+.contact p{
+    font-size: 1.35rem;
+}
 .contact-text{
     font-size: 1.5rem;
     font-weight: bold;
@@ -240,6 +242,12 @@ body{
 .subhead{
     font-size: 1.1rem;
     font-family: sans-serif;
+}
+.subhead a{
+    transition: 0.5s;
+}
+.subhead a:hover{
+    color: rgb(48, 48, 228);
 }
 .foot-logo img{
     width: 18rem;
@@ -258,7 +266,10 @@ body{
     font-family: sans-serif;
 }
 
-
+.last:hover{
+    color: rgb(212, 207, 207);
+    cursor: pointer;
+}
 
 
 

@@ -82,23 +82,22 @@ body{
 /* gallery css */
 
 .gallery-info-div{
-    background-color: #4672ec;
+    background-color: white;
     display: grid;
-    gap: 1rem;
+    gap: 3.5rem;
     grid-template-columns: auto auto auto;
     padding: 2rem;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 2px;
 }
 
-.gallery-card{
-    background-color: #f2f2f2;
-    box-shadow: 10px 10px 10px 0 rgba(212, 206, 206, 0.97);
-   padding: 15px 0 15px 0;  
+.gallery-card{  
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;   padding: 15px 0 15px 0;  
 }
 .gallery img{
     width: 23rem;
-    border-radius: 22px;
+    border-radius: 8px;
     
 }
 
@@ -124,5 +123,7 @@ body{
         text-align: center;
         border-radius: 20px;
     }
+
+ 
     
 }
