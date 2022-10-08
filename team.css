@@ -265,6 +265,7 @@ body{
 .last {
     text-align: center;
     font-family: sans-serif;
+    color: rgb(212, 207, 207);
 }
 
 .last:hover{
@@ -317,5 +318,12 @@ body{
     .sankalp-photo img{
       padding-right: 6rem;
      
+    }
+
+    .full{
+        font-size: 1.28rem;
+    }
+    .subhead a{
+        font-size: 1.28rem;
     }
 }

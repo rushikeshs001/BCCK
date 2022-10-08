@@ -10,7 +10,7 @@ body{
     width: 100%;
    
 }
-        /* Navbar css */      
+        /* Navbar css */           
 #navbar{
     background-color:  #282843;
     height: 11vh;
@@ -36,8 +36,7 @@ body{
 .nav-item ul li{
     list-style: none;
     color: white;
-    font-family: Montserrat,sans-serif;
-    /* font-weight: bold; */ 
+    font-family: Montserrat,sans-serif; 
     font-size: 1.4rem;
     letter-spacing: .1rem;
     cursor: pointer;
@@ -77,7 +76,7 @@ body{
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
 }
-
+ 
 
 
 
@@ -210,11 +209,11 @@ body{
 }
 
 .contact p{
-    font-size: 1.35rem;
+    font-size: 1.38rem;
 }
 .contact-text{
     font-size: 1.5rem;
-    font-weight: bold;
+    
     font-family: sans-serif;
 
 }
@@ -245,6 +244,7 @@ body{
 .last {
     text-align: center;
     font-family: sans-serif;
+    color: rgb(212, 207, 207);
 }
 
 .last:hover{
@@ -274,5 +274,17 @@ body{
         color: white;
         padding: 1rem;
         flex-direction: column;
+    }
+
+    .carousel-inner{
+        width: 100%;
+        height: 25.5vh;
+    }
+    
+    .full{
+        font-size: 1.28rem;
+    }
+    .subhead a{
+        font-size: 1.28rem;
     }
 }
