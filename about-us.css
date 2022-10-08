@@ -21,7 +21,7 @@
     justify-content: left;
     align-items: left;
     flex-direction: column;
-   background-color: #b1cdec;
+   background-color: #bcd1ea;
    text-align: justify;
    
 }
@@ -55,6 +55,11 @@
 .rest{
     color: rgb(243, 104, 24);
     font-size: 1.3rem;
+}
+.center{
+   display: flex;
+   justify-content: center;
+   gap: 0.37rem;
 }
 .content ol{
     padding: 2rem;
