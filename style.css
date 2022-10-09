@@ -14,7 +14,7 @@ body{
        
 
        #navbar{
-        background-color:  #282843;
+        background-color:  #09438F;
        }
 
        #navbar a{
@@ -188,6 +188,15 @@ body{
     /* filter: brightness(75%);  */
 }
 
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
 .main-logo{
     position: absolute;
     top: 13rem;
@@ -351,6 +360,23 @@ body{
         padding: 3rem;
     }
 
+    .navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: white;
+}
+
+.bcck-name{
+    font-size: 1.4rem;
+    
+    position: absolute;
+    font-family: Inter,sans-serif;
+    font-weight: bold;
+}
     .big-footer{
         display: flex;
         justify-content: center;

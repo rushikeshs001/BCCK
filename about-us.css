@@ -286,6 +286,7 @@ padding: 0.6rem 0.9rem;
 .last {
     text-align: center;
     font-family: sans-serif;
+    background-color: #001935;
 }
 
 .last:hover{
