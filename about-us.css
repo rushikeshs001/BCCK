@@ -372,6 +372,18 @@ padding: 0.6rem 0.9rem;
     cursor: pointer;
 }
 
+.dev{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(212, 207, 207);
+
+}
+
+.dev a{
+    text-decoration: none;
+    color: rgb(212, 207, 207);
+}
+
 
 
 
