@@ -11,7 +11,79 @@ body{
 }
 
         /* Navbar css */
-#navbar{
+
+        #navbar{
+            background-color:  #282843;
+           }
+        
+           #navbar a{
+            list-style: none;
+        color: white;
+        font-family: Montserrat,sans-serif; 
+        font-size: 1.4rem;
+        letter-spacing: .1rem;
+        cursor: pointer;
+        
+        list-style: none;
+        
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        padding: 0.6rem 0.9rem;
+           }
+        
+           #navbar a:hover{
+            background-color: #0479ff;
+            border-radius: 2rem;
+            color: #fff;
+            padding: 0.6rem 0.9rem;
+           }
+            .nav-img{
+                height: 9vh; 
+                width: 90px;
+            }
+            
+            .second-main{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap:5rem;
+            }
+            .nav--img{
+                margin-left: 15rem;
+            }
+            .main-nav{
+               margin-left: 25rem;
+            }
+        
+        
+            
+            
+            
+            @media screen and (max-width:768px)
+            {
+                .nav--img{
+                    margin-left: 1rem;
+                }
+            
+                .nav-img{
+                    height: 8vh;
+                   
+                }
+            
+                .main-nav{
+                    margin-left: 1rem;
+                 }
+            
+                 .second-main{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 1rem;
+                }
+            }
+/* #navbar{
     background-color:  #282843;
     height: 11vh;
     width: 100%;
@@ -37,7 +109,7 @@ body{
     list-style: none;
     color: white;
     font-family: Montserrat,sans-serif;
-    /* font-weight: bold; */
+  
     font-size: 1.4rem;
     letter-spacing: .1rem;
     cursor: pointer;
@@ -77,7 +149,7 @@ body{
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
 }
-
+ */
 
 /* gallery css */
 
@@ -102,7 +174,10 @@ body{
 }
 
 .gallery h1{
+    margin-top: 2rem;
+    font-size: 2rem;
     text-align: center;
+    font-weight: bold;
     font-family: sans-serif;
 }
 
