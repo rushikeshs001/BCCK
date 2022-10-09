@@ -168,7 +168,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;   padding: 15px 0 15px 0;  
 }
 .gallery img{
-    width: 23rem;
+    width: 20rem;
     border-radius: 8px;
     
 }
@@ -202,6 +202,16 @@ body{
         border-radius: 5px;
         box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;   padding: 15px 0 15px 0;  
     }
- 
     
+    .gallery-info-div{
+        background-color: white;
+        gap: 3.5rem;
+        border-radius: 2px;
+    }
+    
+    .nav-img{
+        width: 68px;
+        margin-left: -0.5rem;
+        height: 7vh;
+    }
 }

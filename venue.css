@@ -181,7 +181,12 @@ padding: 0.6rem 0.9rem;
 }.first-venue img:hover{
     transform: scale(0.9);
 }
+.one{
+    padding-top: 2rem;
+}
 .first-venue h3{
+   
+    font-family: sans-serif;
     text-align: center;
     font-size: 1.4rem;
     font-weight: bold;
@@ -206,4 +211,10 @@ padding: 0.6rem 0.9rem;
        padding: 1rem;
         
     }
+    .nav-img{
+        width: 68px;
+        margin-left: -0.5rem;
+        height: 7vh;
+    }
+  
 }

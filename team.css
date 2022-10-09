@@ -272,14 +272,14 @@ padding: 0.6rem 0.9rem;
     /* font-weight: bold; */ 
 }
 .sankalp-info h4{
-    font-family: Montserrat,sans-serif;
+    font-family: sans-serif;
    font-weight: bold;
    font-size: 1.5rem;
 }
 
 .sankalp-info h5{
     font-weight: bold;
-    font-family: Montserrat,sans-serif;
+    font-family: sans-serif;
     font-size: 1.25rem;
 }
 .sankalp-photo img{
@@ -402,5 +402,39 @@ padding: 0.6rem 0.9rem;
     }
     .subhead a{
         font-size: 1.28rem;
+    }
+    .nav-img{
+        width: 68px;
+        margin-left: -0.5rem;
+        height: 7vh;
+    }
+    .the-team{
+        margin-top: 1.5rem;
+      
+    }
+
+    .test-photo{
+        background-color: #0479ff;
+        z-index: 999;
+        height: 43vh;
+    }
+    .test-photo img{
+        border-radius: 5px;
+    }
+
+    .sankalp-photo img{
+        width: 200px;
+        padding: 1rem 0 1rem 0;
+     
+    }
+    .sankalp-info{
+        margin-left: 2.7rem;
+        text-align: justify;
+    }
+    .photo-info-div{
+        background-color: #f2f2f2;
+        gap: 2.7rem;
+        text-align: center;
+      
     }
 }

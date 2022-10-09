@@ -390,4 +390,13 @@ padding: 0.6rem 0.9rem;
     .subhead a{
         font-size: 1.28rem;
     }
+
+    .nav-img{
+        width: 68px;
+        margin-left: -0.5rem;
+        height: 7vh;
+    }
+    .content{
+        padding: 1.5rem;
+    }
 }
