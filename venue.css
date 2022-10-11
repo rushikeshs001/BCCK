@@ -178,7 +178,8 @@ padding: 0.6rem 0.9rem;
     width: 450px;
     border-radius: 7px;
     transition: 0.8s all ease-out;
-}.first-venue img:hover{
+}
+.first-venue img:hover{
     transform: scale(0.9);
 }
 .one{
@@ -217,4 +218,19 @@ padding: 0.6rem 0.9rem;
         height: 7vh;
     }
   
+    .first-venue img{
+        
+        width: 390px;
+        border-radius: 7px;
+        transition: 0.8s all ease-out;
+    }
+
+    .first-venue{
+        margin-left: -2rem;
+        width: 390px;
+        border-radius: 10px;
+        background-color: rgb(245, 245, 245);
+        padding-bottom: 10px;
+    }
+   
 }
