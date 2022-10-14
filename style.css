@@ -368,6 +368,7 @@ body{
         flex-direction: column;
         gap: 1rem;
         padding: 3rem;
+      
     }
 
     .navbar-toggler,
@@ -444,6 +445,8 @@ body{
     .contact{
         margin-left:2.5rem;
     }
+
+  
 }
 
 /* .scroll-left {
