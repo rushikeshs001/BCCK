@@ -451,7 +451,7 @@ padding: 0.6rem 0.9rem;
     }
 
     .contact{
-        margin-left:15rem;
+       margin-left: -0.9rem;
         text-align: center;
     }
     .rama {
@@ -466,7 +466,5 @@ padding: 0.6rem 0.9rem;
         margin-left:1rem;
         margin-right: 5rem;
     }
-    .contact{
-        margin-left:2.1rem;
-    }
+    
 }
