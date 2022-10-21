@@ -510,4 +510,9 @@ padding: 0.6rem 0.9rem;
     .contact{
         margin-left:2.3rem;
     }
+    .sankalp-info h5{
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 1.25rem;
+    }
 }
