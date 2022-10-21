@@ -322,7 +322,8 @@ body{
     color: rgb(48, 48, 228);
 }
 .foot-logo img{
-    width: 18rem;
+    width: 11rem;
+    height: 9rem;
 }
 .follow-logo{
     display: flex;
