@@ -53,9 +53,9 @@ padding: 0.6rem 0.9rem;
         justify-content: center;
         gap:5rem;
     }
-    .nav--img{
+    /* .nav--img{
         margin-left: 15rem;
-    }
+    } */
     .main-nav{
        margin-left: 25rem;
     }
@@ -67,7 +67,7 @@ padding: 0.6rem 0.9rem;
     @media screen and (max-width:768px)
     {
         .nav--img{
-            margin-left: 1rem;
+            margin-right: 1rem;
         }
     
         .nav-img{
@@ -85,6 +85,7 @@ padding: 0.6rem 0.9rem;
             justify-content: center;
             gap: 1rem;
         }
+        
     }
 
 
@@ -293,7 +294,7 @@ padding: 0.6rem 0.9rem;
 }
 
 .sankalp-info h5{
-    
+    font-weight: bold;
     font-family: sans-serif;
     font-size: 1.25rem;
 }
@@ -404,6 +405,9 @@ padding: 0.6rem 0.9rem;
         padding: 3rem;
         text-align: center;
     }
+    .follow{
+        padding-top: 3rem;
+    }
 
     .test-photo{
         display: flex;
@@ -498,5 +502,12 @@ padding: 0.6rem 0.9rem;
      }
      .full{
         font-size: 1.2rem;
+    }
+    .nav--img{
+        margin-left:1rem;
+        margin-right: 5rem;
+    }
+    .contact{
+        margin-left:2.3rem;
     }
 }

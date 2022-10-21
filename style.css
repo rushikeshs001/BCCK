@@ -333,6 +333,7 @@ body{
     width: 11rem;
     height: 9rem;
 }
+
 .follow-logo{
     display: flex;
     justify-content: center;
@@ -391,6 +392,9 @@ body{
   box-shadow: none;
   border: none;
   color: white;
+}
+.follow{
+    padding-top: 3rem;
 }
 
 .bcck-name{
@@ -456,7 +460,7 @@ body{
 
 
     .contact{
-        margin-left:2.5rem;
+        margin-left:2.3rem;
     }
 
     .rama {

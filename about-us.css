@@ -426,11 +426,15 @@ padding: 0.6rem 0.9rem;
         gap: 1rem;
     }
 
+    .follow{
+        padding-top: 3rem;
+    }
     .full{
         font-size: 1.28rem;
     }
     .subhead a{
         font-size: 1.28rem;
+        color: rgb(232, 116, 49);
     }
 
     .nav-img{
@@ -453,5 +457,13 @@ padding: 0.6rem 0.9rem;
      }
      .full{
         font-size: 1.2rem;
+    
+    }
+    .nav--img{
+        margin-left:1rem;
+        margin-right: 5rem;
+    }
+    .contact{
+        margin-left:2.1rem;
     }
 }
