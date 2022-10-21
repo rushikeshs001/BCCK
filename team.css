@@ -218,6 +218,10 @@ padding: 0.6rem 0.9rem;
     border-radius: 19px;
     
 }
+.suraj{
+    height: 16.5rem;
+    margin-bottom: 0.5rem;
+}
 .profile-card h2{
     font-size: 1.55rem;
     font-family: Inter,sans-serif;
@@ -226,7 +230,7 @@ padding: 0.6rem 0.9rem;
 }
 .profile-card h3{
     color: #0479ff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: Inter,sans-serif;
     font-weight: 600;
     margin: 2px 2px;
@@ -237,6 +241,15 @@ padding: 0.6rem 0.9rem;
     font-weight: bold;
     font-size: 1.38rem;
     color: #393737;
+   
+}
+.info{
+    padding-top: 1rem;
+}
+.profile-card h5{
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 1.32rem;
    
 }
 
@@ -275,12 +288,12 @@ padding: 0.6rem 0.9rem;
 }
 .sankalp-info h4{
     font-family: sans-serif;
-   font-weight: bold;
+    font-weight: bold;
    font-size: 1.5rem;
 }
 
 .sankalp-info h5{
-    font-weight: bold;
+    
     font-family: sans-serif;
     font-size: 1.25rem;
 }
@@ -289,6 +302,7 @@ padding: 0.6rem 0.9rem;
     padding: 1rem 0 1rem 0;
  
 }
+
 
 /* footer css */
 .contact a{
@@ -309,12 +323,17 @@ padding: 0.6rem 0.9rem;
     color: white;
     padding: 2rem;
 }
-
-.contact p{
+.full{
+    font-size: 1.26rem;
+}
+/* .contact p{
     font-size: 1.38rem;
+} */
+.subhead a{
+    font-size: 1.3rem;
 }
 .contact-text{
-    font-size: 1.5rem;
+    font-size: 1.56rem;
     font-weight: bold;
     font-family: sans-serif;
 }
@@ -324,6 +343,7 @@ padding: 0.6rem 0.9rem;
 }
 .subhead a{
     transition: 0.5s;
+    color: rgb(232, 116, 49);
 }
 .subhead a:hover{
     color: rgb(48, 48, 228);
@@ -365,6 +385,13 @@ padding: 0.6rem 0.9rem;
 .dev a{
     text-decoration: none;
     color: rgb(212, 207, 207);
+}
+.rama {
+    margin-right: 11rem;
+ }
+ .nav--img{
+    margin-left: 9rem;
+    margin-right: 12rem;
 }
 
 
@@ -464,5 +491,12 @@ padding: 0.6rem 0.9rem;
 
     .profile-card h4{
         font-size: 1.1rem;
+    }
+
+    .rama {
+        margin-right: -1rem;
+     }
+     .full{
+        font-size: 1.2rem;
     }
 }

@@ -52,11 +52,13 @@ body{
             gap:5rem;
         }
         .nav--img{
-            margin-left: 15rem;
+            margin-left: 9rem;
+            margin-right: 12rem;
         }
         .main-nav{
            margin-left: 25rem;
-        }    
+        }   
+      
         
         @media screen and (max-width:768px)
         {
@@ -298,12 +300,14 @@ body{
     color: white;
     padding: 2rem;
 }
-
-.contact p{
-    font-size: 1.38rem;
+.full{
+    font-size: 1.26rem;
 }
+/* .contact p{
+    font-size: 1.38rem;
+} */
 .contact-text{
-    font-size: 1.5rem;
+    font-size: 1.55rem;
     font-weight: bold;
     font-family: sans-serif;
    
@@ -311,12 +315,16 @@ body{
 /* .full{
     font-weight: bold;
 } */
+.subhead a{
+    font-size: 1.3rem;
+}
 .subhead{
     /* font-size: 1.1rem; */
     font-family: Calibri;
 }
 .subhead a{
     transition: 0.5s;
+    color: rgb(232, 116, 49);
 }
 .subhead a:hover{
     color: rgb(48, 48, 228);
@@ -358,7 +366,9 @@ body{
     color: rgb(212, 207, 207);
     cursor: pointer;
 }
-
+.rama {
+   margin-right: 11rem;
+}
 
 
 @media screen and (max-width:768px) {
@@ -419,6 +429,7 @@ body{
     }
     .subhead a{
         font-size: 1.28rem;
+
     }
     .main-logo{
         position: absolute;
@@ -448,6 +459,13 @@ body{
         margin-left:2.5rem;
     }
 
+    .rama {
+        margin-right: -1rem;
+     }
+     .full{
+        font-size: 1.22rem;
+    }
+     
   
 }
 
