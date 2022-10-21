@@ -198,8 +198,8 @@ body{
 .main-logo{
     position: absolute;
     top: 13rem;
-    height: 20vh;
-    width: 170px;
+   height: 20vh;
+     width: 170px;
     z-index: -1;
 }
 
@@ -267,7 +267,9 @@ body{
     /* font-weight: bold; */
    
 }
+
 .sankalp-info h4{
+    /* text-align: justify; */
     font-family: sans-serif;
    font-weight: bold;
 }
@@ -429,7 +431,7 @@ body{
     }
     
     .full{
-        font-size: 1.28rem;
+        font-size: 1.01rem;
     }
     .subhead a{
         font-size: 1.28rem;
@@ -455,20 +457,23 @@ body{
         text-align: justify;
     }
     .follow{
-        margin-top: -1.5rem;
+        margin-top: -1.6rem;
     }
 
 
     .contact{
-        margin-left:2.3rem;
+        margin-right:-1rem;
+        text-align: center;
     }
 
     .rama {
-        margin-right: -1rem;
+        /* margin-left: 10.5rem; */
+        margin-right: 0.01rem;
+        height: 20vh;
+        width: 170px;
+        margin-top: 1.5rem;
      }
-     .full{
-        font-size: 1.22rem;
-    }
+   
      
   
 }

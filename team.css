@@ -446,7 +446,8 @@ padding: 0.6rem 0.9rem;
     }
 
     .full{
-        font-size: 1.28rem;
+        font-size: 1.01rem;
+        
     }
     .subhead a{
         font-size: 1.28rem;
@@ -486,23 +487,27 @@ padding: 0.6rem 0.9rem;
       
     }
     .follow{
-        margin-top: -1.5rem;
+        margin-top: -1.56rem;
     }
 
     .contact{
         margin-left:2.5rem;
+        text-align: center;
     }
 
-    .profile-card h4{
+    .profile-card h5{
         font-size: 1.1rem;
     }
+  
 
     .rama {
-        margin-right: -1rem;
+        /* margin-left: 10.5rem; */
+        margin-right: 0.01rem;
+        height: 20vh;
+        width: 170px;
+        margin-top: 1.5rem;
      }
-     .full{
-        font-size: 1.2rem;
-    }
+     
     .nav--img{
         margin-left:1rem;
         margin-right: 5rem;
