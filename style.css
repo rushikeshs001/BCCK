@@ -306,13 +306,13 @@ body{
     font-size: 1.5rem;
     font-weight: bold;
     font-family: sans-serif;
-
+   
 }
 /* .full{
     font-weight: bold;
 } */
 .subhead{
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
     font-family: Calibri;
 }
 .subhead a{
@@ -335,6 +335,7 @@ body{
     width: 3rem;
 
 }
+
 .last {
     text-align: center;
     font-family: sans-serif;
