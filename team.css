@@ -16,7 +16,7 @@ body{
 
 
 #navbar{
-    background-color:  #282843;
+    background-color: #204297;
    }
 
    #navbar a{
@@ -51,7 +51,7 @@ padding: 0.6rem 0.9rem;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap:5rem;
+        gap:3.3rem;
     }
     /* .nav--img{
         margin-left: 15rem;
@@ -59,7 +59,12 @@ padding: 0.6rem 0.9rem;
     .main-nav{
        margin-left: 25rem;
     }
-
+    #te{
+        background-color: #0479ff;
+        border-radius: 2rem;
+        color: #fff;
+        padding: 0.2rem 0.2rem;
+    }
 
     
     
@@ -85,7 +90,12 @@ padding: 0.6rem 0.9rem;
             justify-content: center;
             gap: 1rem;
         }
-        
+        #te{
+            background-color: #0479ff;
+            border-radius: 2rem;
+            color: #fff;
+            padding: 0.2rem 0.2rem;
+        }
     }
 
 
@@ -164,7 +174,7 @@ padding: 0.6rem 0.9rem;
 */
 /* test photo */
 .test-photo{
-    background-color: #0479ff;
+    background-color: #204297;
     z-index: 999;
 }
 .test-photo img{
@@ -413,6 +423,7 @@ padding: 0.6rem 0.9rem;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: #204297;
     }
     .test-photo img{
         width: 91%;
@@ -435,7 +446,7 @@ padding: 0.6rem 0.9rem;
         justify-content: center;
         align-items: center;
         gap: 1rem;
-        background-color: #001935;
+        background-color: #204297;
         color: white;
         padding: 1rem;
         flex-direction: column;
@@ -463,12 +474,15 @@ padding: 0.6rem 0.9rem;
     }
 
     .test-photo{
-        background-color: #0479ff;
+        /* margin-top: 1.8rem; */
+        background-color: #f2f2f2;
         z-index: 999;
         height: 43vh;
     }
     .test-photo img{
         border-radius: 5px;
+        margin-top: 1.8rem;
+        
     }
 
     .sankalp-photo img{
@@ -519,5 +533,11 @@ padding: 0.6rem 0.9rem;
         font-weight: bold;
         font-family: sans-serif;
         font-size: 1.25rem;
+    }
+    .last{
+        background-color: #204297;
+    }
+    .dev{
+        background-color: #204297;
     }
 }

@@ -14,7 +14,7 @@ body{
        
 
        #navbar{
-        background-color:  #09438F;
+        background-color: #204297;
        }
 
        #navbar a{
@@ -49,19 +49,31 @@ body{
             display: flex;
             align-items: center;
             justify-content: center;
-            gap:5rem;
+            gap:3.3rem;
         }
         .nav--img{
-            margin-left: 9rem;
-            margin-right: 12rem;
+            margin-left: 7rem;
+            margin-right: 9rem;
         }
         .main-nav{
-           margin-left: 25rem;
+           margin-left: 26rem;
         }   
+        #ho{
+            background-color: #0479ff;
+            border-radius: 2rem;
+            color: #fff;
+            padding: 0.2rem 0.2rem;
+        }
       
         
         @media screen and (max-width:768px)
         {
+            #ho{
+                background-color: #0479ff;
+                border-radius: 2rem;
+                color: #fff;
+                padding: 0.2rem 0.2rem;
+            }
             .nav--img{
                 margin-left: 1rem;
             }
@@ -81,6 +93,7 @@ body{
                 justify-content: center;
                 gap: 1rem;
             }
+           
         }
 
 
@@ -180,6 +193,7 @@ body{
     content: "";
     position: absolute;
     background: url('images/main5.jpeg') no-repeat center center/cover;
+    top: 3.9rem;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -240,7 +254,7 @@ body{
     margin-top: 75px;
     z-index: -1;
     padding: 55px 40px 40px 40px;
-    background-color: #5fc4fe;
+    background-color: #204297;
 }
 
 /* sponsors css */
@@ -290,7 +304,7 @@ body{
 }
 
 .biggest-footer{
-    background-color: #001935;
+    background-color: #204297;
     color: white;
 }
 .big-footer{
@@ -298,7 +312,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 15rem;
-    background-color: #001935;
+    background-color: #204297;
     color: white;
     padding: 2rem;
 }
@@ -411,13 +425,14 @@ body{
         justify-content: center;
         align-items: center;
         gap: 1rem;
-        background-color: #001935;
+        background-color: #204297;
         color: white;
         padding: 1rem;
         flex-direction: column;
     }
 
     .carousel-inner{
+       
         width: 100%;
         height: 26vh;
     }
@@ -426,8 +441,8 @@ body{
         align-items: center;
         margin-top: 75px;
         z-index: -1;
-        padding: 40px 38px 35px 38px;
-        background-color: #5fc4fe;
+        padding: 15px;
+        background-color: #204297;
     }
     
     .full{

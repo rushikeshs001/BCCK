@@ -13,7 +13,7 @@ body{
         /* Navbar css */
 
         #navbar{
-            background-color:  #282843;
+            background-color: #204297;
            }
         
            #navbar a{
@@ -56,13 +56,111 @@ body{
             .main-nav{
                margin-left: 25rem;
             }
-        
+            #ab{
+                background-color: #0479ff;
+                border-radius: 2rem;
+                color: #fff;
+                padding: 0.2rem 0.2rem;
+            }
+            .biggest-footer{
+                background-color: #204297;
+                color: white;
+            }
+            .big-footer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 15rem;
+                background-color: #204297;
+                color: white;
+                padding: 2rem;
+            }
+            .full{
+                font-size: 1.26rem;
+            }
+            /* .contact p{
+                font-size: 1.38rem;
+            } */
+            .contact-text{
+                font-size: 1.55rem;
+                font-weight: bold;
+                font-family: sans-serif;
+               
+            }
+            /* .full{
+                font-weight: bold;
+            } */
+            .subhead a{
+                font-size: 1.3rem;
+            }
+            .subhead{
+                /* font-size: 1.1rem; */
+                font-family: Calibri;
+            }
+            .subhead a{
+                transition: 0.5s;
+                color: rgb(232, 116, 49);
+            }
+            .subhead a:hover{
+                color: rgb(48, 48, 228);
+            }
+            .foot-logo img{
+                width: 11rem;
+                height: 9rem;
+            }
+            
+            .follow-logo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+               
+            }
+            .follow-logo img{
+                width: 3rem;
+            
+            }
+            
+            .last {
+                text-align: center;
+                font-family: sans-serif;
+                color: rgb(212, 207, 207);
+            }
+            .dev{
+                text-align: center;
+                font-family: sans-serif;
+                color: rgb(212, 207, 207);
+            
+            }
+            
+            .dev a{
+                text-decoration: none;
+                color: rgb(212, 207, 207);
+            }
+            
+            .last:hover{
+                color: rgb(212, 207, 207);
+                cursor: pointer;
+            }
+            .rama {
+               margin-right: 11rem;
+            }
+            
         
             
             
             
             @media screen and (max-width:768px)
             {
+                #ab{
+                    background-color: #0479ff;
+                    border-radius: 2rem;
+                    color: #fff;
+                    padding: 0.2rem 0.2rem;
+                }
+                #navbar{
+                    background-color: #204297;
+                }
                 .nav--img{
                     margin-left: 1rem;
                 }
@@ -81,6 +179,20 @@ body{
                     align-items: center;
                     justify-content: center;
                     gap: 1rem;
+                }
+                .oval{
+                    margin-top: .5rem;
+                    font-weight: bold;
+                    color: rgb(63, 60, 60);
+                }
+                .barik{
+                    font-size: 1.01rem;
+                }
+                .same{
+                    height: 11rem;
+                }
+                .same1{
+                    height: 14rem;
                 }
             }
 /* #navbar{
