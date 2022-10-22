@@ -57,7 +57,7 @@ padding: 0.6rem 0.9rem;
         margin-left: 15rem;
     } */
     .main-nav{
-       margin-left: 25rem;
+        margin-left: 39rem;
     }
     #te{
         background-color: #0479ff;
@@ -176,12 +176,15 @@ padding: 0.6rem 0.9rem;
 .test-photo{
     background-color: #204297;
     z-index: 999;
+    background-color: #f2f2f2;
 }
 .test-photo img{
     width: 91%;
     padding: 2rem 0 2rem 4.1rem;
     height: 88vh;
     border-radius: 5px;
+    background-color: #f2f2f2;
+    margin-left: 4rem;
 }
 
 
