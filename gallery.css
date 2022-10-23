@@ -213,7 +213,7 @@ body{
                 }
                 .oval1{
                     height: 13rem;
-                    width:5rem;
+                   
                 }
             }
 /* #navbar{
@@ -348,7 +348,7 @@ body{
     }
 
     .gallery img{
-        width: 22rem;
+        width: 18rem;
         border-radius: 7px;
         
     }
