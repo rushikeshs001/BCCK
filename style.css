@@ -197,7 +197,7 @@ body{
     position: absolute;
     background: url('images/main5.jpeg') no-repeat center center/cover;
     /* top: 3.9rem; */
-    /* margin-top: 5rem; */
+   margin-top: 5rem; 
     height: 100%;
     width: 100%;
     z-index: -1;
