@@ -21,7 +21,7 @@ body{
         list-style: none;
     color: white;
     font-family: Montserrat,sans-serif; 
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     letter-spacing: .1rem;
     cursor: pointer;
 
@@ -81,6 +81,9 @@ body{
             .nav-img{
                 height: 8vh;
                
+            }
+            #navbar a{
+                font-size: 1.3rem;
             }
         
             .main-nav{
@@ -186,6 +189,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 590px;
+    margin-top: 10.5rem;
   
    
 }
@@ -194,7 +198,8 @@ body{
     position: absolute;
     background: url('images/main5.jpeg') no-repeat center center/cover;
     /* top: 3.9rem; */
-    height: 120%;
+    /* margin-top: 5rem; */
+    height: 100%;
     width: 100%;
     z-index: -1;
     /* filter: brightness(75%);  */
@@ -211,9 +216,9 @@ body{
 
 .main-logo{
     position: absolute;
-    top: 13rem;
+    top: 17rem;
    height: 20vh;
-     width: 170px;
+     width: 190px;
     z-index: -1;
 }
 
@@ -221,7 +226,7 @@ body{
     font-size: 2.8rem;
     
     position: absolute;
-    top: 25rem;
+    top: 32rem;
     font-family: Inter,sans-serif;
     font-weight: bold;
 }
@@ -389,6 +394,16 @@ body{
 
 
 @media screen and (max-width:768px) {
+    #home{
+        height: 373px;
+        margin-top: 10rem;  
+    }
+    .bcck-name{
+       
+        top: 25rem;
+        
+    }
+
     .sponsor{
         background-color: white;
         display: flex;
@@ -462,8 +477,8 @@ body{
     
 
     .nav-img{
-        width: 68px;
-        margin-left: -0.5rem;
+        width: 69px;
+        margin-left: -1.2rem;
         height: 7vh;
     }
 

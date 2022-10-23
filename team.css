@@ -23,7 +23,7 @@ body{
     list-style: none;
 color: white;
 font-family: Montserrat,sans-serif; 
-font-size: 1.4rem;
+font-size: 1.6rem;
 letter-spacing: .1rem;
 cursor: pointer;
 
@@ -78,6 +78,9 @@ padding: 0.6rem 0.9rem;
         .nav-img{
             height: 8vh;
            
+        }
+        #navbar a{
+            font-size: 1.3rem;
         }
     
         .main-nav{
@@ -194,10 +197,10 @@ padding: 0.6rem 0.9rem;
   }
    
   
-  .test-photo img:hover {
+  /* .test-photo img:hover {
    
     transform: scale(1.1);
-  }
+  } */
 
 .the-team{
     color: rgb(63, 61, 61);
@@ -325,7 +328,7 @@ padding: 0.6rem 0.9rem;
 }
 
 .biggest-footer{
-    background-color: #001935;
+    background-color: #204297;
     color: white;
 }
 .big-footer{
@@ -333,7 +336,7 @@ padding: 0.6rem 0.9rem;
     justify-content: center;
     align-items: center;
     gap: 15rem;
-    background-color: #001935;
+    background-color: #204297;
     color: white;
     padding: 2rem;
 }
@@ -421,6 +424,14 @@ padding: 0.6rem 0.9rem;
     .follow{
         padding-top: 3rem;
     }
+    .test-photo img{
+        width: 91%;
+        padding: 2rem 0 2rem 4.1rem;
+        height: 88vh;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        margin-left: 0.1rem;
+    }
 
     .test-photo{
         display: flex;
@@ -467,8 +478,8 @@ padding: 0.6rem 0.9rem;
         font-size: 1.28rem;
     }
     .nav-img{
-        width: 68px;
-        margin-left: -0.5rem;
+        width: 69px;
+        margin-left: -1.2rem;
         height: 7vh;
     }
     .the-team{

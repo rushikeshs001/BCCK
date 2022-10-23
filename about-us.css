@@ -22,7 +22,7 @@
     list-style: none;
 color: white;
 font-family: Montserrat,sans-serif; 
-font-size: 1.4rem;
+font-size: 1.6rem;
 letter-spacing: .1rem;
 cursor: pointer;
 
@@ -90,6 +90,9 @@ padding: 0.6rem 0.9rem;
             margin-left: 1rem;
          }
     
+         #navbar a{
+            font-size: 1.3rem;
+        }
          .second-main{
             display: flex;
             align-items: center;
@@ -167,7 +170,7 @@ padding: 0.6rem 0.9rem;
 
 .content{
     font-family: sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding: 2rem;
     display: flex;
     justify-content: left;
@@ -318,7 +321,7 @@ padding: 0.6rem 0.9rem;
 .last {
     text-align: center;
     font-family: sans-serif;
-    background-color: #001935;
+    background-color: #204297;
 }
 
 .last:hover{
@@ -349,7 +352,7 @@ padding: 0.6rem 0.9rem;
 }
 
 .biggest-footer{
-    background-color: #001935;
+    background-color: #204297;
     color: white;
 }
 .big-footer{
@@ -357,7 +360,7 @@ padding: 0.6rem 0.9rem;
     justify-content: center;
     align-items: center;
     gap: 15rem;
-    background-color: #001935;
+    background-color: #204297;
     color: white;
     padding: 2rem;
 }
@@ -410,7 +413,7 @@ padding: 0.6rem 0.9rem;
 .dev{
     text-align: center;
     font-family: sans-serif;
-    background-color: #001935;
+    background-color: #204297;
     color: rgb(212, 207, 207);
 
 }
@@ -507,12 +510,13 @@ padding: 0.6rem 0.9rem;
     }
 
     .nav-img{
-        width: 68px;
-        margin-left: -0.5rem;
+        width: 69px;
+        margin-left: -1.2rem;
         height: 7vh;
     }
     .content{
         padding: 1.1rem;
+        font-size: 1.1rem;
     }
     .follow{
         margin-top: -1.56rem;
@@ -538,7 +542,7 @@ padding: 0.6rem 0.9rem;
         background-color: #204297;
     }
     .dev{
-        background-color: #204297;
+       
     }
     
 }
