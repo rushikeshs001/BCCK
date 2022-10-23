@@ -395,8 +395,8 @@ body{
 
 @media screen and (max-width:768px) {
     #home{
-        height: 385px;
-        margin-top: 10rem;  
+        height: 405px;
+        margin-top: 8rem;  
     }
     .bcck-name{
        
