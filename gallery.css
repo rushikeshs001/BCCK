@@ -48,7 +48,7 @@ body{
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                gap:5rem;
+                gap:3.3rem;
             }
             .nav--img{
                 margin-left: 15rem;
