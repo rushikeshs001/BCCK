@@ -1,0 +1,557 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.team-body{
+    width: 100%;
+}
+
+
+/* navbar section css */
+
+
+#navbar{
+    background-color: #204297;
+   }
+
+   #navbar a{
+    list-style: none;
+color: white;
+font-family: Montserrat,sans-serif; 
+font-size: 1rem;
+letter-spacing: .1rem;
+cursor: pointer;
+
+list-style: none;
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+padding: 0.6rem 0.9rem;
+   }
+
+   #navbar a:hover{
+    background-color: #0479ff;
+    border-radius: 2rem;
+    color: #fff;
+    padding: 0.6rem 0.9rem;
+   }
+    .nav-img{
+        height: 9vh; 
+        width: 90px;
+    }
+    
+    .second-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:3.3rem;
+    }
+    /* .nav--img{
+        margin-left: 15rem;
+    } */
+    .main-nav{
+        margin-left: 26rem;
+    }
+    #te{
+        background-color: #0479ff;
+        border-radius: 2rem;
+        color: #fff;
+        padding: 0.2rem 0.2rem;
+    }
+
+    
+    
+    
+    @media screen and (max-width:768px)
+    {
+        .nav--img{
+            margin-right: 1rem;
+        }
+    
+        .nav-img{
+            height: 8vh;
+           
+        }
+        #navbar a{
+            font-size: 1.3rem;
+        }
+    
+        .main-nav{
+            margin-left: 1rem;
+         }
+    
+         .second-main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+        #te{
+            background-color: #0479ff;
+            border-radius: 2rem;
+            color: #fff;
+            padding: 0.2rem 0.2rem;
+        }
+    }
+
+
+
+/*
+#navbar{
+    background-color:  #282843;
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: -5px;
+    
+  
+   
+}
+ .logo1{
+    height: 9.5vh;
+    width:100px;
+}
+
+.nav-item ul{
+    display: flex;
+    gap: 85px;
+    margin-left: -120px;
+    margin-top: 20px;
+}
+.nav-item ul li{
+    list-style: none;
+   
+    color: white;
+    font-family: Montserrat,sans-serif;
+    
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+.nav-item ul a{
+    text-decoration: none;
+}
+
+.logo{
+    margin: 0 300px;
+   
+}
+
+
+.nav-item ul li{
+    list-style: none;
+    
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+
+
+.item{
+    padding: 0.6rem 0.9rem;
+}
+ .item:hover{
+    background-color: #0479ff;
+    border-radius: 2rem;
+    color: #fff;
+    padding: 0.6rem 0.9rem;  
+}
+
+.navbar-div {
+    -webkit-animation: slideUp .8s ease .2s forwards;
+    animation: slideUp .8s ease .2s forwards;
+    gap: 5rem;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+}
+
+*/
+/* test photo */
+.test-photo{
+    background-color: #204297;
+    z-index: 999;
+    background-color: #f2f2f2;
+}
+.test-photo img{
+    width: 91%;
+    padding: 2rem 0 2rem 4.1rem;
+    height: 88vh;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin-left: 4rem;
+}
+
+
+
+ .test-photo img{
+    transition: transform .5s, filter 1.5s ease-in-out; 
+  }
+   
+  
+  /* .test-photo img:hover {
+   
+    transform: scale(1.1);
+  } */
+
+.the-team{
+    color: rgb(63, 61, 61);
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+  
+/* card css  */
+
+
+.photo-info-div{
+    background-color: #f2f2f2;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: auto auto auto;
+    padding: 4.5rem;
+    text-align: center;
+  
+}
+
+.profile-card{
+    background-color: #f2f2f2;
+    box-shadow: 10px 10px 43px 0 rgba(212, 206, 206, 0.97);
+   padding: 15px 0 15px 0;  
+   border-radius: 18px;
+   
+}
+.profile-card img{
+    width: 13rem;
+    border-radius: 19px;
+    
+}
+.suraj{
+    height: 16.5rem;
+    margin-bottom: 0.5rem;
+}
+.profile-card h2{
+    font-size: 1.55rem;
+    font-family: Inter,sans-serif;
+    font-weight: 600;
+    margin: 2px 2px;
+}
+.profile-card h3{
+    color: #0479ff;
+    font-size: 1.3rem;
+    font-family: Inter,sans-serif;
+    font-weight: 600;
+    margin: 2px 2px;
+}
+.profile-card h4{
+    margin: 6px 6px;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 1.38rem;
+    color: #393737;
+   
+}
+.info{
+    padding-top: 1rem;
+}
+.profile-card h5{
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 1.32rem;
+   
+}
+
+.profile-card a{
+    text-decoration: none;
+    font-family: Inter,sans-serif;
+    font-size: 1.3rem;
+    color: rgb(218, 28, 28);
+    font-weight: 600;
+}
+
+
+/* sponsors */
+
+.sponsor{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.our-sponsors{
+    width: 200px;
+    margin: auto;
+    margin-top: 1rem;
+    box-shadow: 10px 10px 10px 0 rgb(224, 206, 206);
+}
+.our-sponsors h3{
+    text-align: center;
+    font-weight: 700;
+    color: #397ba1;
+    font-size: 1.7rem;
+    /* font-weight: bold; */ 
+}
+.sankalp-info h4{
+    font-family: sans-serif;
+    font-weight: bold;
+   font-size: 1.5rem;
+}
+
+.sankalp-info h5{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+}
+.sankalp-photo img{
+    width: 200px;
+    padding: 1rem 0 1rem 0;
+ 
+}
+
+
+/* footer css */
+.contact a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.biggest-footer{
+    background-color: #204297;
+    color: white;
+}
+.big-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    background-color: #204297;
+    color: white;
+    padding: 2rem;
+}
+.full{
+    font-size: 1.26rem;
+}
+/* .contact p{
+    font-size: 1.38rem;
+} */
+.subhead a{
+    font-size: 1.3rem;
+}
+.contact-text{
+    font-size: 1.56rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.subhead{
+    font-size: 1.1rem;
+    font-family: Calibri;
+}
+.subhead a{
+    transition: 0.5s;
+    color: rgb(232, 116, 49);
+}
+.subhead a:hover{
+    color: rgb(48, 48, 228);
+}
+.foot-logo img{
+    
+        width: 11rem;
+        height: 9rem;
+    
+}
+.follow-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+   
+}
+.follow-logo img{
+    width: 3rem;
+
+}
+.last {
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(212, 207, 207);
+}
+
+.last:hover{
+    color: rgb(212, 207, 207);
+    cursor: pointer;
+}
+.dev{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(212, 207, 207);
+
+}
+
+.dev a{
+    text-decoration: none;
+    color: rgb(212, 207, 207);
+}
+.rama {
+    margin-right: 11rem;
+ }
+ .nav--img{
+    margin-left: 9rem;
+    margin-right: 12rem;
+}
+
+
+@media screen and (max-width:768px){
+    .photo-info-div{
+        background-color: #f2f2f2;
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        padding: 3rem;
+        text-align: center;
+    }
+    .follow{
+        padding-top: 3rem;
+    }
+    .test-photo img{
+        width: 91%;
+        padding: 2rem 0 2rem 4.1rem;
+        height: 88vh;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        margin-left: 0.1rem;
+    }
+
+    .test-photo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #204297;
+    }
+    .test-photo img{
+        width: 91%;
+        padding: 2rem 0 2rem 0rem;
+        height: auto;
+    }
+
+     .sponsor{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 3rem;
+    }
+
+    .big-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        background-color: #204297;
+        color: white;
+        padding: 1rem;
+        flex-direction: column;
+    }
+    .sankalp-photo img{
+      padding-right: 6rem;
+     
+    }
+
+    .full{
+        font-size: 1.01rem;
+        
+    }
+    .subhead a{
+        font-size: 1.28rem;
+    }
+    .nav-img{
+        width: 69px;
+        margin-left: -1.2rem;
+        height: 7vh;
+    }
+    .the-team{
+        margin-top: 1.5rem;
+      
+    }
+
+    .test-photo{
+        /* margin-top: 1.8rem; */
+        background-color: #f2f2f2;
+        z-index: 999;
+        height: 43vh;
+    }
+    .test-photo img{
+        border-radius: 5px;
+        margin-top: 1.8rem;
+        
+    }
+
+    .sankalp-photo img{
+        width: 200px;
+        padding: 1rem 0 1rem 0;
+     
+    }
+    .sankalp-info{
+        margin-left: 2.5rem;
+        text-align: justify;
+    }
+    .photo-info-div{
+        background-color: #f2f2f2;
+        gap: 2.7rem;
+        text-align: center;
+      
+    }
+    .follow{
+        margin-top: -1.56rem;
+    }
+
+    .contact{
+        margin-right:1rem;
+        text-align: center;
+    }
+
+    .profile-card h5{
+        font-size: 1.1rem;
+    }
+  
+
+    .rama {
+        /* margin-left: 10.5rem; */
+        margin-right: 0.01rem;
+        height: 20vh;
+        width: 170px;
+        margin-top: 1.5rem;
+     }
+     
+    .nav--img{
+        margin-left:1rem;
+        margin-right: 5rem;
+    }
+    .contact{
+        margin-left:2.3rem;
+    }
+    .sankalp-info h5{
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 1.25rem;
+    }
+    .last{
+        background-color: #204297;
+    }
+    .dev{
+        background-color: #204297;
+    }
+}

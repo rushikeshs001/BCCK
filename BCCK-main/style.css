@@ -1,0 +1,541 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.main-body{
+    width: 100%;
+   
+}
+        /* Navbar css */     
+       
+
+       #navbar{
+        background-color: #204297;
+       }
+
+       #navbar a{
+        list-style: none;
+    color: white;
+    font-family: Montserrat,sans-serif; 
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    cursor: pointer;
+
+    list-style: none;
+    
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    padding: 0.6rem 0.9rem;
+       }
+
+       #navbar a:hover{
+        background-color: #0479ff;
+        border-radius: 2rem;
+        color: #fff;
+        padding: 0.6rem 0.9rem;
+       }
+        .nav-img{
+            height: 9vh; 
+            width: 90px;
+        }
+        
+        .second-main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap:3.3rem;
+        }
+        .nav--img{
+            margin-left: 7rem;
+            margin-right: 9rem;
+        }
+        .main-nav{
+           margin-left: 31rem;
+        }   
+        #ho{
+            background-color: #0479ff;
+            border-radius: 2rem;
+            color: #fff;
+            padding: 0.2rem 0.2rem;
+        }
+      
+        
+        @media screen and (max-width:768px)
+        {
+            #ho{
+                background-color: #0479ff;
+                border-radius: 2rem;
+                color: #fff;
+                padding: 0.2rem 0.2rem;
+            }
+            .nav--img{
+                margin-left: 1rem;
+            }
+        
+            .nav-img{
+                height: 8vh;
+               
+            }
+            #navbar a{
+                font-size: 1.3rem;
+            }
+        
+            .main-nav{
+                margin-left: 1rem;
+             }
+        
+             .second-main{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+            }
+           
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+ /* #navbar{
+    background-color:  #282843;
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    
+  
+   
+}
+ .logo1{
+    height: 9.5vh;
+    width:100px;  
+}
+
+.nav-item ul{
+    display: flex;
+    gap: 85px;
+    margin-left: -120px;
+    margin-top: 20px;
+}
+.nav-item ul li{
+    list-style: none;
+    color: white;
+    font-family: Montserrat,sans-serif; 
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+
+.logo{
+    margin: 0 300px;
+   
+}
+
+
+.nav-item ul li{
+    list-style: none;
+    
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+.nav-item ul a{
+    text-decoration: none;
+}
+.item{
+    padding: 0.6rem 0.9rem;
+}
+ .item:hover{
+    background-color: #0479ff;
+    border-radius: 2rem;
+    color: #fff;
+    padding: 0.6rem 0.9rem;  
+}
+
+.navbar-div {
+    -webkit-animation: slideUp .8s ease .2s forwards;
+    animation: slideUp .8s ease .2s forwards;
+    gap: 5rem;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+}
+ 
+ */
+
+
+
+/* Home section css */
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   height:600px;
+      
+   
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('images/main5.jpeg') no-repeat center center/cover;
+    /* top: 3.9rem; */
+   margin-top: 5rem; 
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* filter: brightness(75%);  */
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.main-logo{
+    position: absolute;
+    top: 17rem;
+   height: 20vh;
+     width: 190px;
+    z-index: -1;
+}
+
+.bcck-name{
+    font-size: 2.8rem;
+    
+    position: absolute;
+    top: 30rem;
+    font-family: Inter,sans-serif;
+    font-weight: bold;
+}
+.bcck-name1{
+    color: rgb(239, 155, 0);
+}
+.bcck-name2{
+    color: white;
+}
+.bcck-name3{
+    color: green;
+}
+
+
+/* carousel section css */
+
+.carousel-inner{
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel-item active{
+    width: 100%;
+    height: 60vh;
+}
+
+#carousel{
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+    z-index: -1;
+    padding: 55px 40px 40px 40px;
+    background-color: #204297;
+}
+
+/* sponsors css */
+
+.sponsor{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.our-sponsors{
+    width: 200px;
+    margin: auto;
+    margin-top: 1rem;
+    box-shadow: 10px 10px 10px 0 rgb(224, 206, 206);
+}
+.our-sponsors h3{
+    text-align: center;
+    font-weight: 700;
+    color: #397ba1;
+    /* font-weight: bold; */
+   
+}
+
+.sankalp-info h4{
+    /* text-align: justify; */
+    font-family: sans-serif;
+   font-weight: bold;
+}
+
+.sankalp-info h5{
+    font-weight: bold;
+    font-family:sans-serif;
+}
+.sankalp-photo img{
+    width: 200px;
+    padding: 1rem 0 1rem 0;
+}
+
+
+.contact a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.biggest-footer{
+    background-color: #204297;
+    color: white;
+}
+.big-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    background-color: #204297;
+    color: white;
+    padding: 2rem;
+}
+.full{
+    font-size: 1.26rem;
+}
+/* .contact p{
+    font-size: 1.38rem;
+} */
+.contact-text{
+    font-size: 1.55rem;
+    font-weight: bold;
+    font-family: sans-serif;
+   
+}
+/* .full{
+    font-weight: bold;
+} */
+.subhead a{
+    font-size: 1.3rem;
+}
+.subhead{
+    /* font-size: 1.1rem; */
+    font-family: Calibri;
+}
+.subhead a{
+    transition: 0.5s;
+    color: rgb(232, 116, 49);
+}
+.subhead a:hover{
+    color: rgb(48, 48, 228);
+}
+.foot-logo img{
+    width: 11rem;
+    height: 9rem;
+}
+
+.follow-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+   
+}
+.follow-logo img{
+    width: 3rem;
+
+}
+
+.last {
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(212, 207, 207);
+}
+.dev{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(212, 207, 207);
+
+}
+
+.dev a{
+    text-decoration: none;
+    color: rgb(212, 207, 207);
+}
+
+.last:hover{
+    color: rgb(212, 207, 207);
+    cursor: pointer;
+}
+.rama {
+   margin-right: 11rem;
+}
+
+
+@media screen and (max-width:768px) {
+    #home{
+        height: 405px;
+        margin-top: 5.4rem;  
+    }
+    .bcck-name{
+       
+        top: 25rem;
+        
+    }
+
+    .sponsor{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 3rem;
+      
+    }
+
+    .navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: white;
+}
+.follow{
+    padding-top: 3rem;
+}
+
+.bcck-name{
+    font-size: 1.8rem;
+    text-align: center;
+    position: absolute;
+    font-family: Inter,sans-serif;
+    font-weight: bold;
+}
+    .big-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        background-color: #204297;
+        color: white;
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .carousel-inner{
+       
+        width: 100%;
+        height: 26vh;
+    }
+    #carousel{
+        display: flex;
+        align-items: center;
+        margin-top: 75px;
+        z-index: -1;
+        padding: 15px;
+        background-color: #204297;
+    }
+    
+    .full{
+        font-size: 1.01rem;
+    }
+    .subhead a{
+        font-size: 1.28rem;
+
+    }
+    .main-logo{
+        position: absolute;
+        top: 13rem;
+        height: 18vh;
+        width: 170px;
+        z-index: -1;
+    }
+    
+
+    .nav-img{
+        width: 69px;
+        margin-left: -1.2rem;
+        height: 7vh;
+    }
+
+    .sankalp-info{
+        margin-left: 2.5rem;
+        text-align: justify;
+    }
+    .follow{
+        margin-top: -1.6rem;
+    }
+
+
+    .contact{
+        margin-right:-0.7rem;
+        text-align: center;
+    }
+
+    .rama {
+        /* margin-left: 10.5rem; */
+        margin-right: 0.01rem;
+        height: 20vh;
+        width: 170px;
+        margin-top: 1.5rem;
+     }
+   
+     
+  
+}
+
+/* .scroll-left {
+    height: 50px;	
+    overflow: hidden;
+    position: relative;
+     background-color: #33404d;
+
+    color: rgb(234, 73, 19);
+   
+   }
+  
+   .scroll-left p {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    transform:translateX(100%);
+    animation: scroll-left 15s linear infinite;
+   }
+   
+   @keyframes scroll-left {
+    0%   {
+    transform: translateX(100%); 		
+    }
+    100% {
+    transform: translateX(-100%); 
+    }
+   }
+    */

@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    font-family: sans-serif;
+    color: blue;
+    font-size: 1.6rem;
+   
+}
+
+
+/* content css starts here */
+
+#navbar{
+    background-color: #204297;
+   }
+
+   #navbar a{
+    list-style: none;
+color: white;
+font-family: Montserrat,sans-serif; 
+font-size: 1rem;
+letter-spacing: .1rem;
+cursor: pointer;
+
+list-style: none;
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+padding: 0.6rem 0.9rem;
+   }
+
+   #navbar a:hover{
+    background-color: #0479ff;
+    border-radius: 2rem;
+    color: #fff;
+    padding: 0.6rem 0.9rem;
+   }
+    .nav-img{
+        height: 9vh; 
+        width: 90px;
+    }
+    
+    .second-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:3.3rem;
+    }
+    .nav--img{
+        margin-left: 15rem;
+    }
+    .main-nav{
+        margin-left: 26rem;
+    }
+    #gal{
+        background-color: #0479ff;
+        border-radius: 2rem;
+        color: #fff;
+        padding: 0.2rem 0.2rem;
+    }
+
+
+    
+    
+    
+    @media screen and (max-width:768px)
+    {
+        #gal{
+            background-color: #0479ff;
+            border-radius: 2rem;
+            color: #fff;
+            padding: 0.2rem 0.2rem;
+        }
+        .nav--img{
+            margin-left: 1rem;
+        }
+    
+        .nav-img{
+            height: 8vh;
+           
+        }
+    
+        .main-nav{
+            margin-left: 1rem;
+         }
+    
+         #navbar a{
+            font-size: 1.3rem;
+        }
+         .second-main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+    }
+
+/* #navbar{
+    background-color:  #282843;
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    
+  
+   
+}
+ .logo1{
+    height: 9.5vh;
+    width:100px;  
+}
+
+.nav-item ul{
+    display: flex;
+    gap: 85px;
+    margin-left: -120px;
+    margin-top: 20px;
+}
+.nav-item ul li{
+    list-style: none;
+    color: white;
+    font-family: Montserrat,sans-serif;
+    
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+
+.logo{
+    margin: 0 300px;
+   
+}
+
+
+.nav-item ul li{
+    list-style: none;
+    
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+.nav-item ul a{
+    text-decoration: none;
+}
+.item{
+    padding: 0.6rem 0.9rem;
+}
+ .item:hover{
+    background-color: #0479ff;
+    border-radius: 2rem;
+    color: #fff;
+    padding: 0.6rem 0.9rem;  
+}
+
+.navbar-div {
+    -webkit-animation: slideUp .8s ease .2s forwards;
+    animation: slideUp .8s ease .2s forwards;
+    gap: 5rem;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+} */
+
+.content{
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+   background-color: #bcd1ea;
+   text-align: justify;
+   
+}
+.content p{
+    line-height: 1.8rem;
+    font-family: sans-serif;
+    padding: 1.8rem;
+    border-radius: 6px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.his{
+    /* color: rgb(242, 116, 43); */
+    color:black;
+}
+.of{
+    /* color: rgb(234, 222, 222); */
+    color: black;
+}
+.bcck{
+    /* color: green; */
+    color: black;
+}
+.what{
+   
+    font-size: 1.3rem;
+}
+.what-is{
+    color: rgb(242, 116, 43);
+    font-size: 1.3rem;
+}
+.her{
+    color: rgb(242, 116, 43);
+
+}
+.b1{
+    
+    font-size: 1.3rem;
+}
+.rest{
+    color: rgb(238, 105, 68);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.center{
+   display: flex;
+   justify-content: center;
+   gap: 0.37rem;
+}
+.content ol{
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 6px;
+    
+}
+.content ol li{
+    line-height: 1.6rem;
+}
+.content ul{
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 6px;
+}
+.content ul li{
+    line-height: 1.6rem;
+}
+
+.venue-gallery-div{
+    background-color: rgb(29, 29, 130);
+}
+.button{
+    font-family: Calibri;
+}
+/* button css */
+.button{
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    font-family: sans-serif;
+    font-size: 1rem;
+   cursor: pointer;
+}
+
+
+
+/* footer css */
+.biggest-footer{
+    background-color: #204297;
+    color: white;
+}
+.big-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    background-color: #204297;
+    color: white;
+    padding: 2rem;
+}
+.full{
+    font-size: 1.26rem;
+}
+
+/* .contact p{
+    font-size: 1.35rem;
+} */
+.subhead a{
+    font-size: 1.3rem;
+}
+.contact-text{
+    font-size: 1.55rem;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.subhead{
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+.subhead a{
+    transition: 0.5s;
+    color: rgb(232, 116, 49);
+}
+.subhead a:hover{
+    color: rgb(48, 48, 228);
+}
+.foot-logo img{
+    width: 18rem;
+}
+.follow-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+   
+}
+.follow-logo img{
+    width: 3rem;
+
+}
+.last {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #204297;
+}
+
+.last:hover{
+    color: rgb(212, 207, 207);
+    cursor: pointer;
+}
+
+.venue-gallery-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    padding: 1rem;
+
+}
+
+.venue-gallery-div button{
+    padding: 0.5rem  1rem 0.5rem 1rem;
+    
+}
+
+
+
+
+.contact a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.biggest-footer{
+    background-color: #204297;
+    color: white;
+}
+.big-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    background-color: #204297;
+    color: white;
+    padding: 2rem;
+}
+
+.contact p{
+    font-size: 1.38rem;
+}
+.contact-text{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+.subhead{
+    font-size: 1.1rem;
+    font-family: Calibri;
+}
+.subhead a{
+    transition: 0.5s;
+}
+.subhead a:hover{
+    color: rgb(48, 48, 228);
+}
+.foot-logo img{
+    
+        width: 11rem;
+        height: 9rem;
+    
+}
+.follow-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+   
+}
+.follow-logo img{
+    width: 3rem;
+
+}
+.last {
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(212, 207, 207);
+}
+
+.last:hover{
+    color: rgb(185, 179, 179);
+    cursor: pointer;
+}
+
+.dev{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #204297;
+    color: rgb(212, 207, 207);
+
+}
+
+.dev a{
+    text-decoration: none;
+    color: rgb(212, 207, 207);
+}
+
+.rama {
+    margin-right: 11rem;
+ }
+ .nav--img{
+    margin-left: 9rem;
+    margin-right: 12rem;
+}
+.sponsor{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.our-sponsors{
+    width: 200px;
+    margin: auto;
+    margin-top: 1rem;
+    box-shadow: 10px 10px 10px 0 rgb(224, 206, 206);
+}
+.our-sponsors h3{
+    text-align: center;
+    font-weight: 700;
+    color: #397ba1;
+    font-size: 1.7rem;
+    /* font-weight: bold; */ 
+}
+.sankalp-info h4{
+    font-family: sans-serif;
+    font-weight: bold;
+   font-size: 1.5rem;
+}
+
+.sankalp-info h5{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+}
+.sankalp-photo img{
+    width: 200px;
+    padding: 1rem 0 1rem 0;
+ 
+}
+
+@media screen and (max-width:768px){
+    .sponsor{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 3rem;
+    }
+    .sankalp-photo img{
+        padding-right: 6rem;
+       
+      }
+      .sankalp-photo img{
+        width: 200px;
+        padding: 1rem 0 1rem 0;
+     
+    }
+    .big-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: #204297;
+    }
+
+    .follow{
+        padding-top: 3rem;
+    }
+    .full{
+        font-size: 1.01rem;
+        
+    }
+    .subhead a{
+        font-size: 1.28rem;
+        color: rgb(232, 116, 49);
+    }
+
+    .nav-img{
+        width: 69px;
+        margin-left: -1.2rem;
+        height: 7vh;
+    }
+    .content{
+        padding: 1.1rem;
+        font-size: 1.1rem;
+    }
+    .follow{
+        margin-top: -1.56rem;
+    }
+
+    .contact{
+       margin-left: -0.9rem;
+        text-align: center;
+    }
+    .rama {
+        /* margin-left: 10.5rem; */
+        margin-right: 0.01rem;
+        height: 20vh;
+        width: 170px;
+        margin-top: 1.5rem;
+     }
+   
+    .nav--img{
+        margin-left:1rem;
+        margin-right: 5rem;
+    }
+    .last{
+        background-color: #204297;
+    }
+    .dev{
+       
+    }
+    
+}
